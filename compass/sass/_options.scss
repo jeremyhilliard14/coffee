@@ -1,0 +1,57 @@
+.options-nav{
+	margin-top: 150px;
+	position: relative;
+	height: 60px;
+	background-color: #c4c4c4;
+}
+
+.menu-list{
+}
+.home{
+	left: 0px;
+    width: 65px;
+    height: 55px;
+    background: url('../images/menu-steps.png') 0 0;
+    float: left;
+}
+
+#home p {
+	float: right;
+	margin-top: 25px;
+}
+
+.options{
+	left: 0px;
+    width: 65px;
+    height: 55px;
+    background: url('../images/menu-steps.png') 0 0;
+    float: left;
+}
+#options p {
+	float: right;
+	margin-top: 25px;
+}
+
+.delivery{
+	left: 0px;
+    width: 65px;
+    height: 55px;
+    background: url('../images/menu-steps.png') 0 0;
+    float: left;
+}
+#delivery p {
+	float: right;
+	margin-top: 25px;
+}
+
+.payment{
+	left: 0px;
+    width: 65px;
+    height: 55px;
+    background: url('../images/menu-steps.png') 0 0;
+    float: left;
+}
+#payment p {
+	float: right;
+	margin-top: 25px;
+}

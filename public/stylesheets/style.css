@@ -1,14 +1,20 @@
 /* line 1, ../../compass/sass/_base.scss */
-body {
-  background: #f2f2f2;
+html {
+  height: 100%;
 }
 
 /* line 5, ../../compass/sass/_base.scss */
+body {
+  background: #f2f2f2;
+  height: 100%;
+}
+
+/* line 10, ../../compass/sass/_base.scss */
 #logo img {
   height: 100px;
 }
 
-/* line 8, ../../compass/sass/_base.scss */
+/* line 13, ../../compass/sass/_base.scss */
 #better-way {
   margin-top: 200px;
   background-image: url("../images/coffee.jpg");
@@ -16,23 +22,23 @@ body {
   height: 300px;
 }
 
-/* line 15, ../../compass/sass/_base.scss */
+/* line 20, ../../compass/sass/_base.scss */
 #better {
   margin-top: 60px;
 }
 
-/* line 18, ../../compass/sass/_base.scss */
+/* line 23, ../../compass/sass/_base.scss */
 #how {
   margin-top: 25px;
 }
 
-/* line 21, ../../compass/sass/_base.scss */
+/* line 26, ../../compass/sass/_base.scss */
 #grower-row {
   background: #f2e3d5;
   height: 300px;
 }
 
-/* line 27, ../../compass/sass/_base.scss */
+/* line 32, ../../compass/sass/_base.scss */
 #grower img {
   width: 100%;
   height: auto;
@@ -41,7 +47,7 @@ body {
   margin-top: 54px;
 }
 
-/* line 35, ../../compass/sass/_base.scss */
+/* line 40, ../../compass/sass/_base.scss */
 #one {
   background-image: url("../images/CoffeeBags.jpg");
   background-size: cover;
@@ -49,54 +55,54 @@ body {
   color: white;
   margin-top: 25px;
 }
-/* line 41, ../../compass/sass/_base.scss */
+/* line 46, ../../compass/sass/_base.scss */
 #one #one-text {
   margin-top: 60px;
 }
-/* line 43, ../../compass/sass/_base.scss */
+/* line 48, ../../compass/sass/_base.scss */
 #one #one-text p {
   margin-left: 30px;
 }
 
-/* line 49, ../../compass/sass/_base.scss */
+/* line 54, ../../compass/sass/_base.scss */
 #two {
   margin-top: 35px;
 }
-/* line 51, ../../compass/sass/_base.scss */
+/* line 56, ../../compass/sass/_base.scss */
 #two p {
   margin-left: 30px;
 }
 
-/* line 56, ../../compass/sass/_base.scss */
+/* line 61, ../../compass/sass/_base.scss */
 #three {
   height: 300px;
   background: black;
 }
-/* line 59, ../../compass/sass/_base.scss */
+/* line 64, ../../compass/sass/_base.scss */
 #three #three-text {
   color: white;
   margin-top: 70px;
 }
-/* line 62, ../../compass/sass/_base.scss */
+/* line 67, ../../compass/sass/_base.scss */
 #three #three-text p {
   margin-left: 30px;
 }
-/* line 66, ../../compass/sass/_base.scss */
+/* line 71, ../../compass/sass/_base.scss */
 #three #three-img img {
   height: 300px;
   width: 75%;
 }
 
-/* line 72, ../../compass/sass/_base.scss */
+/* line 77, ../../compass/sass/_base.scss */
 #get-started {
   margin-top: 25px;
 }
-/* line 74, ../../compass/sass/_base.scss */
+/* line 79, ../../compass/sass/_base.scss */
 #get-started button {
   background: #284741;
 }
 
-/* line 91, ../../compass/sass/_base.scss */
+/* line 96, ../../compass/sass/_base.scss */
 #two-arrow {
   width: 0;
   height: 0;
@@ -108,7 +114,7 @@ body {
   bottom: 282px;
 }
 
-/* line 102, ../../compass/sass/_base.scss */
+/* line 107, ../../compass/sass/_base.scss */
 #three-arrow {
   width: 0;
   height: 0;
@@ -120,7 +126,7 @@ body {
   bottom: 301px;
 }
 
-/* line 113, ../../compass/sass/_base.scss */
+/* line 118, ../../compass/sass/_base.scss */
 #three-arrow2 {
   width: 0;
   height: 0;
@@ -130,11 +136,11 @@ body {
   margin-left: 48.5%;
 }
 
-/* line 122, ../../compass/sass/_base.scss */
+/* line 127, ../../compass/sass/_base.scss */
 #additional-info {
   margin-top: 15px;
 }
-/* line 124, ../../compass/sass/_base.scss */
+/* line 129, ../../compass/sass/_base.scss */
 #additional-info button {
   background-color: white;
   color: black;
@@ -193,4 +199,72 @@ body {
 /* line 1, ../../compass/sass/_register.scss */
 .reg-header {
   margin-top: 150px;
+}
+
+/* line 1, ../../compass/sass/_options.scss */
+.options-nav {
+  margin-top: 150px;
+  position: relative;
+  height: 60px;
+  background-color: #c4c4c4;
+}
+
+/* line 10, ../../compass/sass/_options.scss */
+.home {
+  left: 0px;
+  width: 65px;
+  height: 55px;
+  background: url("../images/menu-steps.png") 0 0;
+  float: left;
+}
+
+/* line 18, ../../compass/sass/_options.scss */
+#home p {
+  float: right;
+  margin-top: 25px;
+}
+
+/* line 23, ../../compass/sass/_options.scss */
+.options {
+  left: 0px;
+  width: 65px;
+  height: 55px;
+  background: url("../images/menu-steps.png") 0 0;
+  float: left;
+}
+
+/* line 30, ../../compass/sass/_options.scss */
+#options p {
+  float: right;
+  margin-top: 25px;
+}
+
+/* line 35, ../../compass/sass/_options.scss */
+.delivery {
+  left: 0px;
+  width: 65px;
+  height: 55px;
+  background: url("../images/menu-steps.png") 0 0;
+  float: left;
+}
+
+/* line 42, ../../compass/sass/_options.scss */
+#delivery p {
+  float: right;
+  margin-top: 25px;
+}
+
+/* line 47, ../../compass/sass/_options.scss */
+.payment {
+  left: 0px;
+  width: 65px;
+  height: 55px;
+  background: url("../images/menu-steps.png") 0 0;
+  float: left;
+}
+
+/* line 54, ../../compass/sass/_options.scss */
+#payment p {
+  float: right;
+  margin-top: 25px;
 }

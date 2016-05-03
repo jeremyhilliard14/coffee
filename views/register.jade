@@ -7,8 +7,10 @@ block content
 				h1 Registration
 				h4 Pick a username and password
 		.row
-			.col-sm-offset-4
+			.col-sm-offset-4.error.text-center
 				.col-sm-6.registration-wrapper.text-center
+					if(failure)
+						h2 Your Password must match
 					form(role="form", action="/register", method="post", id="registration-form", name="registration")
 						.form-group.text-center
 							label Username:
