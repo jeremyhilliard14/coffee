@@ -5,6 +5,16 @@ html
 		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
 		link(rel='stylesheet', href='/stylesheets/style.css')
 	body
+		nav.navbar.navbar-default.navbar-fixed-top
+			.container-fluid
+				#logo.col-sm-6
+					a(href='/')
+					img(src='images/dc_roasters.png')
+				#buttons.col-sm-6.text-right
+					a(href="/login")
+						button.btn.btn-primary(type="submit") Log In
+					a(href="/register")
+						button.btn.btn-primary(type="submit") Register
 		block content
 		.footer.col-sm-12.text-center
 			img(src='../images/dc_roasters.png')
