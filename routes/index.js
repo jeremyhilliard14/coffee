@@ -30,13 +30,36 @@ router.post('/register', function(req, res, next){
 		});
 		newAccount.save();
 		req.session.username = req.body.username;
-		res.redirect('/options')
+		res.redirect('/options');
 		//res.render("register", {})
 	}
 });
 
+router.get('/login', function(req, res, next){
+	res.render("login", {page: 'login'});
+});
+
+router.post('/login', function(req, res, next){
+
+	Account.findOne(
+		{username: req.body.username},
+		function(err, doc){
+			var loginResult = bcrypt.compareSync(req.body.password, doc.password);
+			if(loginResult){
+				req.session.username = req.body.username;
+				res.redirect('/options');
+			}else{
+				res.redirect('/login?failure=password');
+			} 
+		});
+});
+
 router.get('/options', function(req, res, next){
-	res.render('options', {username: req.session.username})
+	if (!req.session.username){
+		res.redirect('/login');
+	}else{
+		res.render('options', {username: req.session.username})
+	}
 });
 
 module.exports = router;

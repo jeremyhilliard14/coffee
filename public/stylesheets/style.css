@@ -205,7 +205,7 @@ body {
 .options-nav {
   margin-top: 150px;
   position: relative;
-  height: 60px;
+  height: 70px;
   background-color: #c4c4c4;
 }
 
@@ -213,57 +213,62 @@ body {
 .home {
   left: 0px;
   width: 65px;
-  height: 55px;
-  background: url("../images/menu-steps.png") 0 0;
+  height: 60px;
+  background: url("../images/menu-steps.png");
+  background-position: 0px 0px;
   float: left;
 }
 
-/* line 18, ../../compass/sass/_options.scss */
+/* line 19, ../../compass/sass/_options.scss */
 #home p {
   float: right;
   margin-top: 25px;
+  margin-right: 20px;
 }
 
-/* line 23, ../../compass/sass/_options.scss */
+/* line 25, ../../compass/sass/_options.scss */
 .options {
   left: 0px;
   width: 65px;
-  height: 55px;
-  background: url("../images/menu-steps.png") 0 0;
+  height: 60px;
+  background: url("../images/menu-steps-active.png");
+  background-position: 0px -57px;
   float: left;
 }
 
-/* line 30, ../../compass/sass/_options.scss */
+/* line 33, ../../compass/sass/_options.scss */
 #options p {
   float: right;
   margin-top: 25px;
 }
 
-/* line 35, ../../compass/sass/_options.scss */
+/* line 38, ../../compass/sass/_options.scss */
 .delivery {
   left: 0px;
-  width: 65px;
-  height: 55px;
-  background: url("../images/menu-steps.png") 0 0;
+  width: 70px;
+  height: 60px;
+  background: url("../images/menu-steps.png");
+  background-position: 0px -117px;
   float: left;
 }
 
-/* line 42, ../../compass/sass/_options.scss */
+/* line 46, ../../compass/sass/_options.scss */
 #delivery p {
   float: right;
   margin-top: 25px;
 }
 
-/* line 47, ../../compass/sass/_options.scss */
+/* line 51, ../../compass/sass/_options.scss */
 .payment {
   left: 0px;
   width: 65px;
-  height: 55px;
-  background: url("../images/menu-steps.png") 0 0;
+  height: 60px;
+  background: url("../images/menu-steps.png");
+  background-position: 0px -180px;
   float: left;
 }
 
-/* line 54, ../../compass/sass/_options.scss */
+/* line 59, ../../compass/sass/_options.scss */
 #payment p {
   float: right;
   margin-top: 25px;
